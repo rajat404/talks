@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>Metaprogramming slides</title>
+<title>How-to-be-a-lazier-developer slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11858,7 +11858,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Metaprogramming-in-Python">Metaprogramming in Python<a class="anchor-link" href="#Metaprogramming-in-Python">&#182;</a></h2><p><br><br><br><br>
+<h1 id="How-to-be-a-lazier-developer">How to be a lazier developer<a class="anchor-link" href="#How-to-be-a-lazier-developer">&#182;</a></h1><p><br><br><br><br>
 By Rajat Goyal</p>
 <p>@rajat404</p>
 
@@ -11869,19 +11869,11 @@ By Rajat Goyal</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="What-is-metaprogramming?">What is metaprogramming?<a class="anchor-link" href="#What-is-metaprogramming?">&#182;</a></h2><p>Code manipulating Code</p>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Why-use-metaprogramming?">Why use metaprogramming?<a class="anchor-link" href="#Why-use-metaprogramming?">&#182;</a></h2><ul>
-<li>Better understanding of Python libraries/frameworks</li>
-<li>DRY</li>
-<li>Simplify your workflow</li>
+<h2 id="Terminal-Emulators">Terminal Emulators<a class="anchor-link" href="#Terminal-Emulators">&#182;</a></h2><h3 id="Terminator/iTerm2">Terminator/iTerm2<a class="anchor-link" href="#Terminator/iTerm2">&#182;</a></h3><ul>
+<li>Split pane view</li>
+<li>Configurable keybindings</li>
+<li>Customisable UI</li>
+<li>Content re-flow on resize</li>
 </ul>
 
 </div>
@@ -11891,200 +11883,137 @@ By Rajat Goyal</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Closures">Closures<a class="anchor-link" href="#Closures">&#182;</a></h2><p>Closures are functions that return functions</p>
+<h2 id="Shells">Shells<a class="anchor-link" href="#Shells">&#182;</a></h2>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Bash">Bash<a class="anchor-link" href="#Bash">&#182;</a></h2><ul>
+<li>Default shell in most *NIX distributions</li>
+<li>Plain &amp; Simple</li>
+</ul>
 
 </div>
 </div>
 </div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">create_func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">multiply</span><span class="p">():</span>
-        <span class="k">return</span> <span class="n">a</span><span class="o">*</span><span class="n">b</span>
-    <span class="k">return</span> <span class="n">multiply</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Files-in-Bash">Files in Bash<a class="anchor-link" href="#Files-in-Bash">&#182;</a></h2><ul>
+<li><strong>.bash_profile</strong> -- The personal initialization file, executed at login</li>
+<li><strong>.bashrc</strong> -- The individual per-interactive-shell startup file</li>
+<li><strong>.bash_history</strong> -- File storing history of commands entered</li>
+</ul>
 
 </div>
 </div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Zsh">Zsh<a class="anchor-link" href="#Zsh">&#182;</a></h2><ul>
+<li>Incorporates features of <code>bash</code> &amp; <code>ksh</code></li>
+<li>Fast autocompletion</li>
+<li>Versatile prompts</li>
+<li>Autocorrect/Autosuggest</li>
+</ul>
 
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Files-in-Zsh">Files in Zsh<a class="anchor-link" href="#Files-in-Zsh">&#182;</a></h2><ul>
+<li><strong>.zprofile</strong> -- Executes commands at login pre-zshrc</li>
+<li><strong>.zshrc</strong> -- The individual per-interactive-shell startup file</li>
+<li><strong>.zshenv</strong> -- Defines environment variables</li>
+<li><strong>.zhistory</strong> -- File storing history of commands entered</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Zsh-Configuration-Framework">Zsh Configuration Framework<a class="anchor-link" href="#Zsh-Configuration-Framework">&#182;</a></h2>
+</div>
+</div>
 </div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="n">temp</span> <span class="o">=</span> <span class="n">create_func</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">temp</span><span class="p">()</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><a href="https://github.com/robbyrussell/oh-my-zsh/">Oh-my-zsh</a></li>
+</ul>
 
 </div>
 </div>
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[6]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>50</pre>
-</div>
-
-</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><a href="https://github.com/sorin-ionescu/prezto">Prezto</a></li>
+</ul>
 
 </div>
 </div>
-
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Decorators">Decorators<a class="anchor-link" href="#Decorators">&#182;</a></h2><p>A decorator is a function that wraps around another function, therby modifiying it's functionality</p>
+<h2 id="Aliases">Aliases<a class="anchor-link" href="#Aliases">&#182;</a></h2><p>replacement text for a command</p>
 
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">decorator</span> <span class="k">import</span> <span class="n">decorator</span>
-
-<span class="nd">@decorator</span>
-<span class="k">def</span> <span class="nf">print_something</span><span class="p">(</span><span class="n">fn</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Something is printed before the function</span><span class="se">\&#39;</span><span class="s1">s execution!&#39;</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">fn</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-
-<span class="nd">@print_something</span>
-<span class="k">def</span> <span class="nf">adder</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
 </div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">adder</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Something is printed before the function&#39;s execution!
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[23]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>3</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Using-Decorators-in-everyday-programming">Using Decorators in everyday programming<a class="anchor-link" href="#Using-Decorators-in-everyday-programming">&#182;</a></h2><ul>
-<li>logging</li>
-<li>debugging</li>
-<li>validation</li>
-</ul>
+
+<pre><code># Git Aliases
+
+alias gs="git status"
+alias ga='git add . --all'
+alias gb='git branch '
+alias gc='git commit -am'
+alias gk='git checkout'
+alias gpo='git push origin "$(git-branch-current 2&gt; /dev/null)"'
+alias gpu='git pull origin "$(git-branch-current 2&gt; /dev/null)"'</code></pre>
 
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Decorator for Logging</span>
-<span class="kn">from</span> <span class="nn">functools</span> <span class="k">import</span> <span class="n">wraps</span>
-<span class="kn">import</span> <span class="nn">logging</span>
-
-<span class="k">def</span> <span class="nf">logger_decorator</span><span class="p">(</span><span class="n">f</span><span class="p">):</span>
-    <span class="n">log</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="vm">__module__</span><span class="p">)</span>
-    <span class="n">text</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="vm">__qualname__</span>
-    <span class="nd">@wraps</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
-    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-        <span class="n">log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">f</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">wrapper</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Decorator for Debugging</span>
-<span class="kn">from</span> <span class="nn">decorator</span> <span class="k">import</span> <span class="n">decorator</span>
-
-<span class="nd">@decorator</span>
-<span class="k">def</span> <span class="nf">debug_something</span><span class="p">(</span><span class="n">fn</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;args: </span><span class="si">{}</span><span class="s1"> </span><span class="se">\n</span><span class="s1">kwargs: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">))</span>
-    <span class="k">return</span> <span class="n">fn</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div></section></section><section><section>
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Classes-&amp;-Types">Classes &amp; Types<a class="anchor-link" href="#Classes-&amp;-Types">&#182;</a></h2><ul>
-<li>Brief intro to Types in Python</li>
-<li>How to create custom Types</li>
-</ul>
+<h3 id="Some-more-examples">Some more examples<a class="anchor-link" href="#Some-more-examples">&#182;</a></h3><p><br></p>
+
+<pre><code>alias fsize="du -hs * | sort -h"
+alias lookup='ps aux | grep'
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=&gt; Public key copied to clipboard.'"
+alias pwc="pwd | pbcopy | pwd &amp;&amp; echo '=&gt; Current Directory copied to clipboard.'"
+alias las="ls -SFhsrl"
+
+alias env="python3 -m venv venv"
+alias sv="source venv/bin/activate"
+
+alias mp3="youtube-dl --extract-audio --audio-format mp3 --no-playlist"
+alias youtube-720="youtube-dl -f 'bestvideo[height&lt;=720]+bestaudio/best[height&lt;=720]' --no-playlist"</code></pre>
 
 </div>
 </div>
@@ -12093,119 +12022,78 @@ By Rajat Goyal</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Class-Decorators">Class Decorators<a class="anchor-link" href="#Class-Decorators">&#182;</a></h2><ul>
-<li>Decorators for Classes</li>
-<li>Can wrap only instance methods</li>
-<li>Better Solutions?</li>
-</ul>
+<h2 id="Functions">Functions<a class="anchor-link" href="#Functions">&#182;</a></h2><p>Group or modify commands for easy execution</p>
 
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">class_deco</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Inside class: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="vm">__qualname__</span><span class="p">))</span>
-    <span class="k">return</span> <span class="bp">cls</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
 </div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nd">@class_deco</span>
-<span class="k">class</span> <span class="nc">A</span><span class="p">:</span>
-    <span class="k">pass</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Inside class: A
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Metaclasses">Metaclasses<a class="anchor-link" href="#Metaclasses">&#182;</a></h2><ul>
-<li>Class of a Class</li>
-<li>class whose instances are themselves classes</li>
-</ul>
+
+<pre><code># http://hamberg.no/erlend/posts/2013-01-18-mkcd.html
+mkcd(){
+    mkdir -p "${1}"
+    cd "${1}"
+}
+
+# Automatically do `ls` after `cd`
+cd(){
+    builtin cd "$@" &amp;&amp; ls -F
+}</code></pre>
 
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Basic Metaclass</span>
-<span class="k">class</span> <span class="nc">SampleMeta</span><span class="p">(</span><span class="nb">type</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">classname</span><span class="p">,</span> <span class="n">bases</span><span class="p">,</span> <span class="n">clsdict</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;clsdict:&#39;</span><span class="p">,</span> <span class="n">clsdict</span><span class="p">)</span>
-        <span class="k">return</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">classname</span><span class="p">,</span> <span class="n">bases</span><span class="p">,</span> <span class="n">clsdict</span><span class="p">)</span>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Some-more-expamples">Some more expamples<a class="anchor-link" href="#Some-more-expamples">&#182;</a></h3><p><br></p>
 
-<span class="c1"># Define a new class using the SampleMeta metaclass</span>
-<span class="k">class</span> <span class="nc">A</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">SampleMeta</span><span class="p">):</span>
-    <span class="k">pass</span>
-</pre></div>
+<pre><code>req(){
+    pip freeze | grep "$1"
+    pip freeze | grep "$1" | pbcopy
+    echo "=&gt; Output copied to clipboard"
+}
 
-</div>
-</div>
-</div>
+# Create Archives
+mktar() { tar cvf  "${1%%/}.tar"     "${1%%/}/"; }
+mktgz() { tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"; }
+mktbz() { tar cvjf "${1%%/}.tar.bz2" "${1%%/}/"; }
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>clsdict: {&#39;__module__&#39;: &#39;__main__&#39;, &#39;__qualname__&#39;: &#39;A&#39;}
-</pre>
-</div>
-</div>
+# Lists all commits made by the user yesterday, in the current project
+standup(){
+    AUTHOR=$(git config --get user.email)
+    git log --since yesterday --oneline --author $AUTHOR
+}</code></pre>
 
 </div>
 </div>
-
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Metaprogramming-Best-Practices">Metaprogramming Best Practices<a class="anchor-link" href="#Metaprogramming-Best-Practices">&#182;</a></h2><p>General principles &amp; syntax that should be followed while writing decorators &amp; metaclasses</p>
+<h2 id="Envirnonment-Variables">Envirnonment Variables<a class="anchor-link" href="#Envirnonment-Variables">&#182;</a></h2>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Dotfiles">Dotfiles<a class="anchor-link" href="#Dotfiles">&#182;</a></h2><p><a href="https://github.com/rajat404/dotfiles">https://github.com/rajat404/dotfiles</a></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Thanks!">Thanks!<a class="anchor-link" href="#Thanks!">&#182;</a></h2><p><a href="https://medium.com/@rajat404/dev-setup-terminal-a0a3a23db47c">https://medium.com/@rajat404/dev-setup-terminal-a0a3a23db47c</a></p>
 
 </div>
 </div>
